@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sukanya Jada | Full Stack Developer</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #0f0f0f;
+      color: #fff;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #1a1a1a;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: #ccc;
+      text-decoration: none;
+      margin: 0 15px;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #00ffff;
+    }
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+    }
+    .hero h1 {
+      font-size: 3rem;
+    }
+    .hero p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #444;
+      display: inline-block;
+    }
+    .card {
+      background-color: #1e1e1e;
+      padding: 20px;
+      border-radius: 12px;
+      margin: 20px 0;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1a1a1a;
+      margin-top: 40px;
+    }
+    .social-icons {
+      margin-top: 10px;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      color: #00ffff;
+      font-size: 1.5rem;
+      transition: color 0.3s;
+    }
+    .social-icons a:hover {
+      color: #fff;
+    }
+    .resume-download {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #00ffff;
+      color: #000;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background-color 0.3s;
+    }
+    .resume-download:hover {
+      background-color: #00cccc;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div><strong>Sukanya Jada</strong></div>
+    <div>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#courses">Courses</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section class="hero" data-aos="fade-down">
+    <h1>Hello, I'm  Jada Sukanya 👋</h1>
+    <p>Full Stack Developer </p>
+  </section>
+
+  <section id="about" class="section" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>I’m a full stack developer with skills in HTML, CSS, JavaScript, React, Node.js, and MongoDB. I also love mobile app development using Kotlin and building AI-powered solutions for real-world problems.</p>
+  </section>
+
+  <section id="projects" class="section" data-aos="zoom-in">
+    <h2>Projects</h2>
+    <div class="card">
+      <h3>🔒 Malware Detection System</h3>
+      <p>This project detects whether a given URL or data hash is malware or benign using ML algorithms. Focused on cybersecurity and real-time data validation.</p>
+    </div>
+    <div class="card">
+      <h3>🚦 Traffic Management System</h3>
+      <p>Uses YOLO for vehicle and pothole detection to improve traffic monitoring and urban road safety. A step toward smarter cities.</p>
+    </div>
+  </section>
+
+  <section id="courses" class="section" data-aos="fade-up">
+    <h2>Courses & Certifications</h2>
+    <ul>
+      <li>Java Full Stack Development – Coursera</li>
+      <li>Android 14 & 15 Kotlin Development – Udemy</li>
+      <li>Complete Java Programming – Udemy</li>
+      <li>Android Developer Virtual Internship – AICTE Eduskills</li>
+      <li>Salesforce Developer Virtual Internship – Salesforce</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section" data-aos="zoom-in">
+    <h2>Contact Me</h2>
+    <div class="social-icons">
+      <a href="mailto:Sukanyajada8@gmail.com" title="Gmail"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/sukanya-jada-2b7b5a33b" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <a href="resume.pdf" class="resume-download" download>Download Resume</a>
+<a href="resume.pdf" target="_blank" class="resume-download" style="margin-left: 10px;">View Resume</a>
+
+
+  </section>
+
+  <footer class="footer">
+    &copy;  Sukanya Jada.
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000 });
+  </script>
+</body>
+</html>
